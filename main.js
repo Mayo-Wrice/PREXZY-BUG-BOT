@@ -3,7 +3,7 @@
 //Instagram: prexzy.ay
 //Telegram: t.me/prexzyvilla_tech
 //GitHub: @Prexzybooster
-//WhatsApp: +2349159895444
+//WhatsApp: +2349127566707
 //want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@Prexzyvilla
 
 require('./settings')
@@ -31,7 +31,7 @@ const store = makeInMemoryStore({
     })
 })
 
-let phoneNumber = "2349159895444"
+let phoneNumber = "2349127566707"
 let owner = JSON.parse(fs.readFileSync('./database/owner.json'))
 
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
